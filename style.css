@@ -1,0 +1,203 @@
+      /* ------------------------------------------------ */
+	         /* Regestration CSS Start Here */
+	  /* ------------------------------------------------ */
+
+.main-row {
+	border-radius: 10px;
+	box-shadow: 0px 1px 8px 1px #ccc;
+}
+.left-site-col {
+	padding-left: 0px;
+}
+.from-image {
+	width: 410px;
+	height: 600px;
+	background-image: url("image/background.png");
+	border-radius: 10px 0px 0px 10px;
+    position: relative;
+}
+.from-image h4 {
+	display: inline-block;
+	width: 182px;
+	position: absolute;
+	top: 75px;
+	left: 60px;
+	color: white;
+	font-weight: Bold;
+	font-family: arial;
+	line-height: 33px;
+}
+.from-image img {
+	width: 330px;
+	display: inline-block;
+	position: relative;
+	top: 184px;
+}
+
+		/*----------------------------------------------- */
+		      /* Registration From CSS Start Here */
+		/* ---------------------------------------------- */
+
+.from {
+	padding: 50px 0px;
+	width: 420px;
+}
+.from h2 {
+	display: inline-block;
+	color: #2b2b2b;
+	font-weight: 400;
+	font-family: arial;
+	font-size: 28px;
+}
+.name {
+	width: 40% !important;
+	font-size: 15px;
+	padding: 10px 8px;
+	border: 1px solid #ddd;
+	color: #777;
+    display: inline-block;
+    border-left: 7px solid #fff;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+
+}
+.name:focus{
+    border: none;
+    border-left: 7px solid #F4AB35;
+    border-radius: 5px 0px 0px 5px;
+    box-sizing: border-box;
+	box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+}
+input:focus-visible{
+	outline: none;
+}
+input[type="text"]{
+    width: 80%;
+	font-size: 15px;
+	padding: 10px 8px;
+	border: 1px solid #ddd;
+	color: #000;
+    display: inline-block;
+    border-left: 7px solid #fff;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+}
+.pass-input{
+	width:80%;
+	font-size: 15px;
+	padding: 10px 8px;
+	border: 1px solid #ddd;
+	color: #000;
+    display: inline-block;
+    border-left: 7px solid #fff;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+}
+.from input:focus{
+    border: 1px solid #ddd;
+    border-left: 7px solid #F4AB35;
+    border-radius: 5px 0px 0px 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+}
+textarea{
+    width: 80%;
+	font-size: 15px;
+	padding: 10px 8px;
+	border: 1px solid #ddd;
+	color: #000;
+    display: inline-block;
+    border-left: 7px solid #fff;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+}
+textarea:focus{
+    border: 1px solid #ddd;
+    border-left: 7px solid #F4AB35;
+    border-radius: 5px 0px 0px 5px;
+    outline: 0;
+    box-sizing: border-box;
+}
+.from input::placeholder{
+    opacity: 0.6;
+}
+button {
+	text-align: center;
+	display: block;
+	width: 100%;
+	border: 1px solid #f4ab35;
+	background-color: #f4ab35;
+	color: #fff;
+	padding: 5px 30px;
+	border-radius: 5px;
+	font-size: 23px;
+}
+.from h6 {
+	display: inline-block;
+	color: #403f3f;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.from a{
+    display: inline-block;
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+
+
+
+			/*---------------------------------------------  */
+                /* Log In CSS  Design  Start Here*/
+			/*---------------------------------------------  */
+
+.from h3 {
+	display: inline-block;
+	margin-left: 2px;
+	color: #2b2b2b;
+	font-family: arial;
+	font-weight: 300;
+	font-size: 25px;
+}
+.forget-link a {
+	color: #000;
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 14px;
+	margin-bottom: 12px;
+	margin-left: 8px;
+}
+.icon-mobile{
+   position: relative;
+}
+.icon-lock{
+    position: relative;
+}
+span {
+	position: absolute;
+	top: 5px;
+	right: 40%;
+	display: inline-block;
+	width: 20px;
+	font-size: 22px;
+	color: #aaa;
+}
+
+
+			/*---------------------------------------------  */
+               /* Forgotten Password CSS start here */
+			/*---------------------------------------------  */
+
+
+.reset-btn {
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin: 0px 2px;
+	border: 1px solid #f4ab35;
+	background-color: #f4ab35;
+	color: #fff;
+	padding: 5px 30px;
+	border-radius: 5px;
+	font-size: 19px;
+}
+

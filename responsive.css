@@ -1,0 +1,205 @@
+    
+    /*---------------------------------------------  */
+        /* registration from responsive start here  */
+	/*---------------------------------------------  */
+    
+  
+    
+ @media(max-width:767px) {
+    .from {
+        padding: 0px 0px;
+    }
+    .from-image {
+        display: none;
+    }
+    .from input {
+        width: 80% !important;
+    }
+    .name {
+        width: 42% !important;
+    }
+    textarea {
+    width: 436px;
+    }
+    button {
+        width: 85%;
+        margin: 0px 0px;;
+        padding: 8px 30px;
+        font-size: 18px;
+    }
+} 
+@media (min-width:768px) {
+    .from {
+        margin-left: 100px;
+        width: 300px;
+    }
+    .from input {
+        width: 65% !important;
+    }
+}
+@media (max-width:525px) {
+    .from {
+        width: 400px;
+    }
+    
+}
+
+@media (max-width:991px){
+    .from {
+        margin-left: 100px;
+    }
+    .from-image img {
+        width: 300px;
+        display: inline-block;
+        position: relative;
+        top: 184px;
+    }
+    .from input {
+        width: 100% !important;
+    }
+    .name {
+        width: 100% !important;
+    }
+    textarea{
+        width: 100% !important;
+    }
+        
+}
+@media(min-width:992px) {
+    textarea{
+        width: 100% !important;
+    }
+    .from input {
+        width: 100% !important;
+    } 
+}
+    
+@media(max-width:1199px) {
+    .from {
+        margin-left: 100px;
+    }
+    .from input {
+        width: 94%;
+    }
+    .name {
+        width: 47% !important;
+    }
+    textarea{
+        width: 95%;
+    }
+    button {
+        width: 95%;
+        margin: 0px 0px;
+        padding: 6px 30px;
+        font-size: 23px;
+    }
+}
+@media (min-width:1200px) {
+    .name{
+        width: 32%;
+    }
+}
+@media(min-width:1960px) {
+    textarea{
+        width: 65%;
+    }    
+}
+
+        /*---------------------------------------------  */
+            /* Log in from CSS start here */
+	  /*---------------------------------------------  */
+            
+
+
+ @media(max-width:1199px){
+    span {
+        position: absolute;
+        top: 5px;
+        right: 10% !important;
+    }
+}
+@media (min-width:1200px) {
+    span {
+        position: absolute;
+        top: 5px;
+        right: 18%;
+    }
+}
+
+@media(max-width:991px){
+    .from input {
+        width: 130%;
+    }
+    span {
+        position: absolute;
+        top: 5px;
+        right: -20%;
+    }
+    textarea {
+        width: 100% !important;
+    }
+}
+@media (max-width:767px) {
+    .from input {
+        width: 95%;
+    }
+    span {
+        position: absolute;
+        top: 5px;
+        right: 10% !important;
+        font-size: 20px;
+    }
+    button {
+        width: 100% !important;
+        font-size: 20px;
+    }
+    .from {
+        width: 300px;
+        padding: 0px 10px;
+    }
+}
+@media (min-width:768px) {
+    .from-input{
+        width: 130%;
+    }
+}
+@media(min-width:426px) {
+    span {
+        position: absolute;
+        top: 5px;
+        right: 10%;
+        font-size: 20px;
+     }
+    
+}
+@media(max-width:425px){
+    span {
+        position: absolute;
+        top: 5px;
+        right: 10%;
+        font-size: 20px;
+     }
+    
+}
+@media(max-width:335px){
+    .from input {
+        font-size: 13px;
+    }
+    .from h3 {
+        font-size: 22px;
+    }
+    span {
+        position: absolute;
+        top: 6px;
+        right: 10%;
+        font-size: 18px;
+    }
+} 
+
+             /* Forgot Password Responsive start here */
+
+ @media(width:991px){
+    .reset-btn {
+        width: 175%;
+    }
+} 
